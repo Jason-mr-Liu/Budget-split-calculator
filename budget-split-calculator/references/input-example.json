@@ -1,0 +1,17 @@
+{
+  "currency": "CNY",
+  "total": 12000,
+  "step": 1,
+  "buffer_rate": 0.05,
+  "fixed": [
+    { "name": "房租", "amount": 3500 },
+    { "name": "手机费", "amount": 100 },
+    { "name": "还款", "amount": 1500 }
+  ],
+  "categories": [
+    { "name": "储蓄", "priority": "high" },
+    { "name": "餐饮", "priority": "medium", "min": 1500, "max": 3000 },
+    { "name": "娱乐", "priority": "low" },
+    { "name": "学习", "amount": 800 }
+  ]
+}
